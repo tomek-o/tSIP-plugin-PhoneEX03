@@ -7,4 +7,5 @@
 *.bak
 *.obj
 *.depend
+*.layout
 *.~*
