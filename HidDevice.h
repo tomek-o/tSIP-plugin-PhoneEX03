@@ -50,7 +50,7 @@ namespace nsHidDevice {
         typedef struct
         {
             int nCode;
-            char *lpName;
+            const char *lpName;
         } SERROR;
         static SERROR tabErrorsName[E_ERR_LIMIT];
         static std::string GetErrorDesc(int ErrorCode);
