@@ -305,7 +305,7 @@ int UpdateDisplay(HidDevice &dev) {
 
     DisplayExtras extras;
 
-    if (callState == 0) {
+    if (callState == 0 && callDisplay.empty()) {
         time_t rawtime;
         struct tm * timeinfo;
         time (&rawtime);
